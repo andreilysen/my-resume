@@ -1,0 +1,171 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f5f7fa;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: Montserrat;
+}
+
+.wrapper {
+  background: #ffffff;
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+
+.sidebar {
+  background: #1e2939;
+  width: 370px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.my-photo {
+  width: 370px;
+}
+
+.about-me-container {
+  padding: 60px;
+}
+
+.contacts {
+  margin-top: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.contacts-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.contacts-link {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #e5e6e8;
+}
+
+.icon {
+  width: 15px;
+  margin-right: 10px;
+  fill: #e5e6e8;
+}
+
+.skills-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #fff;
+  width: 121px;
+  height: 17px;
+  margin-bottom: 20px;
+}
+
+.skills-container {
+  margin-top: 55px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.skills-item {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 15px;
+  color: #ff6b08;
+}
+
+.skills-text {
+  color: #e5e6e8;
+}
+
+.profesion {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+.name {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 60px;
+}
+.deskription {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.info-container {
+  margin-bottom: 65px;
+}
+.projects-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+.projects-link {
+  color: #595959;
+}
+.projects-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #595959;
+}
+
+.projects-item {
+  font-weight: 700;
+  margin-left: 15px;
+}
+.projects-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+.projects-container {
+  margin-bottom: 55px;
+}
+.company {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.time-work {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #a8a8a8;
+}
+
+.education {
+  color: #ff6b08;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.faculty {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.profesional-divaider {
+  color: #000;
+}
+.profecional-duties {
+  margin-top: 14px;
+  margin-bottom: 30px;
+}

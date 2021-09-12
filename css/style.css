@@ -56,6 +56,7 @@ body {
   font-weight: 400;
   line-height: 24px;
   color: #e5e6e8;
+  text-decoration: none;
 }
 
 .icon {
@@ -111,32 +112,47 @@ body {
 .info-container {
   margin-bottom: 65px;
 }
+.projects-container {
+  margin-bottom: 55px;
+}
 .projects-title {
   font-size: 22px;
   font-weight: 700;
   line-height: 24px;
   margin-bottom: 10px;
 }
+.progect-list {
+  list-style: none;
+}
+.projects-item {
+  font-weight: 700;
+  /* margin-left: 15px; */
+}
+
+.project-name {
+  display: flex;
+  align-items: baseline;
+}
+
 .projects-link {
   color: #595959;
+  margin-left: 5px;
+  text-decoration: none;
 }
 .projects-text {
+  margin-left: 15px;
+}
+.text {
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
   color: #595959;
 }
 
-.projects-item {
-  font-weight: 700;
-  margin-left: 15px;
-}
 .projects-item:not(:last-child) {
   margin-bottom: 20px;
 }
-.projects-container {
-  margin-bottom: 55px;
-}
+
 .company {
   font-size: 16px;
   font-weight: 700;

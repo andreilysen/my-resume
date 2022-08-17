@@ -6,30 +6,24 @@
 
 body {
   background: #f5f7fa;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 40px;
-  padding-bottom: 40px;
   font-family: Montserrat;
 }
 
 .wrapper {
   background: #ffffff;
-  display: flex;
-  max-width: 1200px;
+  min-width: 425px;
   margin: 0 auto;
   box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
 }
 
 .sidebar {
   background: #1e2939;
-  width: 370px;
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
 .my-photo {
-  width: 370px;
+  width: 100%;
 }
 
 .about-me-container {
@@ -70,8 +64,6 @@ body {
   font-weight: 700;
   line-height: 24px;
   color: #fff;
-  /* width: 121px;
-  height: 17px; */
   margin-bottom: 20px;
 }
 
@@ -93,18 +85,20 @@ body {
   color: #e5e6e8;
 }
 
-.profesion {
-  font-size: 20px;
+.name {
+  font-size: 27px;
   font-weight: 700;
-  line-height: 24px;
+  line-height: 30px;
+}
+
+.profession {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 12px;
   margin-bottom: 20px;
 }
-.name {
-  font-size: 45px;
-  font-weight: 700;
-  line-height: 60px;
-}
-.deskription {
+
+.description {
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -121,12 +115,11 @@ body {
   line-height: 24px;
   margin-bottom: 10px;
 }
-.progect-list {
+.project-list {
   list-style: none;
 }
 .projects-item {
   font-weight: 700;
-  /* margin-left: 15px; */
 }
 
 .project-name {
@@ -178,10 +171,30 @@ body {
   font-weight: 700;
   line-height: 24px;
 }
-.profesional-divaider {
+.professional-divider {
   color: #000;
 }
-.profecional-duties {
+.professional-duties {
   margin-top: 14px;
   margin-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  body {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .wrapper {
+    display: flex;
+    max-width: 1200px;
+  }
+  .name {
+    font-size: 45px;
+    line-height: 60px;
+  }
+  .profession {
+    font-size: 20px;
+    line-height: 24px;
+  }
 }

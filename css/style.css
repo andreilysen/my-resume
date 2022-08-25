@@ -5,13 +5,18 @@
 }
 
 body {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   background: #f5f7fa;
   font-family: Montserrat;
 }
 
 .wrapper {
+  display: flex;
+  max-width: 1200px;
   background: #ffffff;
-  min-width: 425px;
   margin: 0 auto;
   box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
 }
@@ -86,15 +91,15 @@ body {
 }
 
 .name {
-  font-size: 27px;
+  font-size: 45px;
+  line-height: 60px;
   font-weight: 700;
-  line-height: 30px;
 }
 
 .profession {
-  font-size: 15px;
+  font-size: 20px;
+  line-height: 24px;
   font-weight: 700;
-  line-height: 12px;
   margin-bottom: 20px;
 }
 
@@ -177,24 +182,4 @@ body {
 .professional-duties {
   margin-top: 14px;
   margin-bottom: 30px;
-}
-@media screen and (min-width: 768px) {
-  body {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
-  .wrapper {
-    display: flex;
-    max-width: 1200px;
-  }
-  .name {
-    font-size: 45px;
-    line-height: 60px;
-  }
-  .profession {
-    font-size: 20px;
-    line-height: 24px;
-  }
 }
